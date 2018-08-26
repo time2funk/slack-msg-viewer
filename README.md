@@ -1,6 +1,6 @@
 # slack-msg-reviewer
 
-[ Node.js, Electron.js, Slack, AWS Polly ]
+[ Node.js, Electron.js, Slack, AWS Polly ] :shipit:
 
 > Desktop App was design to review messages of specific user in slack worck-space.
 
@@ -24,25 +24,28 @@ npm package-win
 npm package-linux
 ```
 
-## Configure
+### Configure
 
 Create your own `config.js` file from `comfig-sample.js`
 
 
-## Set-Up Slack Bot
+### Set-Up Slack Bot
 
 * First we need to create slack-bot for particular slack-work-space
 
-> We will receive slack-bot **OAuth Access Token** (xoxp-...) ===> `config.js`
+* Select _Permission OAuth Scopes_ for your slack-bot :
+* * channels:history
+* * groups:history 
+* * im:history 
+* * mpim:history 
+* * channels:read 
+* * groups:read 
+* * im:read 
+* * mpim:read 
+* * users:read
 
-* Select **Permission OAuth Scopes** for your slack-bot 
 
-> [ channels:history, groups:history, im:history, mpim:history, channels:read, groups:read, im:read, mpim:read, users:read ]
-
-
-## Set-Up AWS Polly
-* create AWS IAM User Account with Access Credentials (**AmazonPollyFullAccess**)
-
-> we will receive **Access Key ID** and **Secret Access Key** ===> `config.js`
+### Set-Up AWS Polly
+* create AWS IAM User Account with **AmazonPollyFullAccess** Access Credentials
 
 * Also we need to choose the _voice ID_ form the list https://docs.aws.amazon.com/polly/latest/dg/voicelist.html ===> `config.js`
