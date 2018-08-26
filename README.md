@@ -26,23 +26,23 @@ npm package-linux
 
 ## Configure
 
-Create your own "config.js" file from "comfig-sample.js"
+Create your own `config.js` file from `comfig-sample.js`
 
 
 ## Set-Up Slack Bot
 
 * First we need to create slack-bot for particular slack-work-space
 
-_(We will receive slack-bot `OAuth Access Token` (xoxp-...) ===> config.js)_
+> We will receive slack-bot _OAuth Access Token_ (xoxp-...) ===> `config.js`
 
-* Select `Permission OAuth Scopes` for your slack-bot 
+* Select _Permission OAuth Scopes_ for your slack-bot 
 
-[channels:history, groups:history, im:history, mpim:history, channels:read, groups:read, im:read, mpim:read, users:read]
+[ channels:history, groups:history, im:history, mpim:history, channels:read, groups:read, im:read, mpim:read, users:read ]
 
 
 ## Set-Up AWS Polly
 * create AWS IAM User Account with Access Credentials (AmazonPollyFullAccess)
 
-_(we will receive `Access Key ID` and `Secret Access Key` ===> config.js)_
+> we will receive _Access Key ID_ and _Secret Access Key_ ===> `config.js`
 
 * Also we need to choose the "voice ID" form the list https://docs.aws.amazon.com/polly/latest/dg/voicelist.html ===> config.js
