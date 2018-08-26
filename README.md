@@ -33,7 +33,7 @@ npm package-linux
 
 * First we need to create slack-bot for particular slack-work-space
 
-* Select _Permission OAuth Scopes_ for your slack-bot :
+* Select **Permission OAuth Scopes** for your slack-bot :
   * users:read
   * channels:read 
   * groups:read 
@@ -46,6 +46,6 @@ npm package-linux
 
 
 ### Set-Up AWS Polly
-* create AWS IAM User Account with **AmazonPollyFullAccess** Access Credentials
+* create AWS IAM User Account with **AmazonPollyFullAccess** Credentials
 
 * Also we need to choose the _voice ID_ form the list https://docs.aws.amazon.com/polly/latest/dg/voicelist.html
