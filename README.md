@@ -26,7 +26,7 @@ npm package-linux
 
 ### Configure
 
-  Create your own `config.js` file from `comfig-sample.js`
+* Create your own `config.js` file from `comfig-sample.js`
 
 
 ### Set-Up Slack Bot
@@ -34,15 +34,15 @@ npm package-linux
 * First we need to create slack-bot for particular slack-work-space
 
 * Select _Permission OAuth Scopes_ for your slack-bot :
-  * channels:history
-  * groups:history 
-  * im:history 
-  * mpim:history 
+  * users:read
   * channels:read 
   * groups:read 
   * im:read 
   * mpim:read 
-  * users:read
+  * channels:history
+  * groups:history 
+  * im:history 
+  * mpim:history 
 
 
 ### Set-Up AWS Polly
