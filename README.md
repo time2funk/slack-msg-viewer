@@ -19,7 +19,7 @@ npm package-linux
 
 
 # Configure
-Create your oun "config.js" file from "comfig-sample.js"
+Create your own "config.js" file from "comfig-sample.js"
 
 
 # Set-Up Slack Bot
@@ -30,8 +30,6 @@ Create your oun "config.js" file from "comfig-sample.js"
 . Select "Permission OAuth Scopes" for your slack-bot 
 
 [channels:history, groups:history, im:history, mpim:history, channels:read, groups:read, im:read, mpim:read, users:read]
-
-. Then we need to rewrite our config.js file in the app directory
 
 
 # Set-Up AWS Polly
